@@ -12,7 +12,6 @@ sys_prompt="""You are a helpful Python application develpoer that allows users t
 model=ai.GenerativeModel(model_name="models/gemini-2.0-flash-exp",system_instruction=sys_prompt)
 
 st.title("Suman's AI Code Reviewer")
-st.subtitle("Enter/Paste Your Python Code")
 
 user_input = st.text_area(label="Enter your Python Code", placeholder="Explain the concept AI")
 
