@@ -19,7 +19,7 @@ model=ai.GenerativeModel(model_name="models/gemini-2.0-flash-exp",system_instruc
 st.markdown("""
     <style>
         .title {
-            font-size: 36px;
+            font-size: 30px;
             font-weight: bold;
             color: #000000; /* Black color */
             background-color: #f0f0f0; /* Light grey background */
@@ -31,7 +31,7 @@ st.markdown("""
         }
     </style>
     <div class="title">
-         Suman's Python-Code Reviwer
+         Suman's Python Code Reviwer
     </div>
 """, unsafe_allow_html=True )
 user_input = st.text_area(label="Enter your Python Code", placeholder="Write Python Code")
