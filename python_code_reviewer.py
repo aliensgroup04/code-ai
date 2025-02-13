@@ -21,7 +21,7 @@ st.markdown("""
         .title {
             font-size: 36px;
             font-weight: bold;
-            color: #0044cc; /* Black color */
+            color: #000000; /* Black color */
             background-color: #f0f0f0; /* Light grey background */
             padding: 20px;
             border-radius: 10px;
