@@ -17,6 +17,7 @@ model=ai.GenerativeModel(model_name="models/gemini-2.0-flash-exp",system_instruc
 st.title("Suman's AI Code Reviewer")
 user_input = st.text_area(label="Enter your Python Code", placeholder="Write Python Code")
 btn_click = st.button("Enter")
+st.title("CODE REVIEW")
 if btn_click == True:
     response = model.generate_content(user_input)
     print("OUTPUT ON TERMINAL: ", len(response.text))
