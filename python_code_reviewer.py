@@ -36,7 +36,6 @@ st.markdown("""
 """, unsafe_allow_html=True )
 user_input = st.text_area(label="Enter your Python Code", placeholder="Write Python Code")
 btn_click = st.button("Enter")
-st.title("CODE REVIEW")
 if btn_click == True:
     response = model.generate_content(user_input)
     print("OUTPUT ON TERMINAL: ", len(response.text))
