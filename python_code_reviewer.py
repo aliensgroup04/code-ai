@@ -16,7 +16,24 @@ sys_prompt="""You are a helpful Python application develpoer that allows users t
  for fixes. The application should be user-friendly, efficient, and provide accurate bug reports and fixed code snippets.In case if a student ask any question outside the python code scope,
                 politely decline and tell them to ask the question from python code questions only."""
 model=ai.GenerativeModel(model_name="models/gemini-2.0-flash-exp",system_instruction=sys_prompt)
-st.title("Suman's AI Code Reviewer")
+st.markdown("""
+    <style>
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #0044cc; /* Blue color */
+            background-color: #f0f0f0; /* Light grey background */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+    </style>
+    <div class="title">
+        🌟 Empowering Vision: Suman's AI-Driven Solution for Visually Impaired Assistance 🤖 📝
+    </div>
+""", unsafe_allow_html=True )
 user_input = st.text_area(label="Enter your Python Code", placeholder="Write Python Code")
 btn_click = st.button("Enter")
 st.title("CODE REVIEW")
