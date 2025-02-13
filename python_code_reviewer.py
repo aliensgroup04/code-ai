@@ -10,7 +10,7 @@ Original file is located at
 import streamlit as st
 import google.generativeai as ai
 ai.configure(api_key='AIzaSyBMCc42a-cWcpnG1TfCC830kbHG20dAqpo')
-st.ballons()
+st.balloons()
 st.snow()
 sys_prompt="""You are a helpful Python application develpoer that allows users to submit their Python code for review and receive feedback on potential bugs along with suggestions
  for fixes. The application should be user-friendly, efficient, and provide accurate bug reports and fixed code snippets.In case if a student ask any question outside the python code scope,
