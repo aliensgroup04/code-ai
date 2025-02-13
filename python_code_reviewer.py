@@ -31,7 +31,7 @@ st.markdown("""
         }
     </style>
     <div class="title">
-        🌟 Suman's Python-Code Reviwer 🤖 📝
+         Suman's Python-Code Reviwer
     </div>
 """, unsafe_allow_html=True )
 user_input = st.text_area(label="Enter your Python Code", placeholder="Write Python Code")
